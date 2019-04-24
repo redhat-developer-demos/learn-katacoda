@@ -3,6 +3,10 @@
   "private": true,
   "courses": [
     {
+      "external_link": "https://katacoda.com/dougtidwell/coderland/", 
+      "title": Coderland"
+    },
+    {
       "external_link": "https://learn.openshift.com/introduction/",
       "title": "Foundations of OpenShift"
     },
