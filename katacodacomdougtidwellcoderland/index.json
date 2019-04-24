@@ -1,0 +1,51 @@
+{
+  "pathwayTitle": "Coderland", 
+  "title": "Serverless computing in action",
+  "description": "Visit Coderland to learn the latest technologies",
+  "difficulty": "Intermediate", 
+  "time": "5-8 minutes",
+    "details": {
+    "steps": [
+      {
+        "title": "A word about serverless",
+        "text": "step1.md"
+      },
+      {
+        "title": "Deploy a service to Knative",
+        "text": "step2.md"
+      },
+      {
+        "title": "View the running service in the OpenShift console",
+        "text": "step3.md"
+      },
+      {
+        "title": "Use the service in a React-based web app",
+        "text": "step4.md"
+      },
+      {
+        "title": "Wait for Knative to kill the service",
+        "text": "step5.md"
+      },
+      {
+        "title": "Run the web app again to revive the service",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true, 
+    "dashboards": [{"name": "OpenShift Console", "port": 8443}, {"name": "Photo Booth", "port": 3000}],
+    "uilayout": "terminal", 
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. You'll execute commands here.\u001b[m\r\n
+
+  },
+  "backend": {
+    "imageid": "kubernetes"
+  }
+}
